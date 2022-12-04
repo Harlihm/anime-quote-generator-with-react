@@ -1,0 +1,33 @@
+.app {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  /* justify-content: space-between; */
+  gap: 30px;
+  flex-wrap: nowrap;
+  flex-direction: column;
+
+}
+
+
+.aName,.aCharacter,.aQuote{
+  display: flex;
+  align-items: center;
+  align-content: center;
+  /* gap: 10px; */
+  flex-wrap: nowrap;
+  flex-direction: column;
+
+}
+
+.quote{
+  max-width: 39rem;
+  text-align: center;
+}
+:root{
+  background-color: black;
+  color: white;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
